@@ -43,6 +43,9 @@ public class kafe09 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+                default:
+            System.out.println("Size tidak tersedia");
+            return;
         }
 
         double diskon = keanggotaan ? 0 : 0.1;
